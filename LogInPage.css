@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    color: aliceblue;
+    position: absolute;
+    top: 34%;
+    left: 34%;
+}
+/* Heading */
+.container h1{
+    font-family: 'Lobster', cursive;
+    padding:10px;
+    display: inline-block;
+    font-size: 30px;
+}
+.container h1:hover{
+    transform: rotate(2deg);
+}
+.box{
+    border-bottom:2px solid white;
+    /* border-bottom: blue; */
+    width: 100%;
+}
+/* Sign in Form */
+.box input{
+    width:75%;
+    margin: 17px 28px;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-weight: bolder;
+}
+/* Icons */
+.box i{
+    width:25px; 
+    text-align: center;
+    /* padding:0 12px; */
+
+}
+
+i:hover{
+    transform: rotate(9deg);
+}
+/* Sign In Button */
+.btn{
+    margin:15px;
+    padding: 4px;
+    width: 20%;
+    border-radius: 7px;
+    cursor: pointer;
+    outline: none;
+    background: none;
+    color: white;
+    font-weight: bold;
+    animation-name: shadow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.btn:hover{
+    background-color: purple;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 3px 3px plum;
+}
+@keyframes shadow{
+    from{
+        box-shadow: 4px 4px 3px rgb(208, 135, 222);
+    }
+    to{
+        box-shadow: 7px 7px 6px rgb(208, 135, 222);
+    }
+}
+

@@ -1,0 +1,23 @@
+/* Background Image */
+body{
+    background-size: 130% 100%;
+}
+/* Container,inputs,heading */
+.container {
+    position: absolute;
+    top: 33%;
+    left: 22%;
+  }
+.container h1{
+    width: 90%;
+    font-size: medium;
+}
+
+.box input{
+    width: 58%;
+}
+
+/* Submit Button */
+.btn{
+    width: 32%;
+}
