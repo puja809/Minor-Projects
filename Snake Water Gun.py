@@ -64,4 +64,4 @@ elif u < c:
 elif u == c:
     print("******* Result *******")
     print("Sorry!! Draw Match")
-    print("User's point is ", u, "and Computer's point is", c)
+    print("User's point is ", u, "and Computer's point is", c) 
